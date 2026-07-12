@@ -8,9 +8,9 @@ const projects = [
     link: 'https://ai-chi-clothing.vercel.app/',
   },
   {
-    title: 'Nexa Bus Online Terminal',
-    desc: 'Full-featured online bus ticketing and terminal management system with real-time seat selection, route scheduling, and booking flows.',
-    tech: 'Web App · Vercel · Transit System',
+    title: 'Eternal Atelier',
+    desc: 'Eternal Atelier is an immersive digital gallery blending old money aesthetics with refined typography to showcase timeless art masterpieces.',
+    tech: 'React · Vite · Typescript · Vercel · Tailwind CSS · Motion',
     link: 'https://nexa-bus-un-done.vercel.app/',
   },
   {
