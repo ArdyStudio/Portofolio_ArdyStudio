@@ -1,9 +1,9 @@
 import VideoAnimasi from '../assets/VideoAnimasi.mp4';
 
 const stats = [
-  { value: '100+', label: 'AI Experiments' },
-  { value: '50+', label: 'Prompt Systems Built' },
-  { value: '10+', label: 'Web Applications Deployed' },
+  { value: '30+', label: 'AI Experiments' },
+  { value: '40+', label: 'Prompt Systems Built' },
+  { value: '20+', label: 'Web Applications Deployed' },
 ];
 
 export default function AboutSection() {
@@ -34,7 +34,7 @@ export default function AboutSection() {
               <span className="text-[#e8702a] text-lg">🎓</span>
             </div>
             <div>
-              <p className="text-white text-sm font-semibold">S1 Ilmu Komputer, Teknik Informatika</p>
+              <p className="text-white text-sm font-semibold">Bachelor of Computer Science</p>
               <p className="text-white/50 text-xs">Universitas Esa Unggul</p>
             </div>
           </div>

@@ -20,10 +20,10 @@ const projects = [
     link: 'https://ai-chi-photobox.vercel.app/',
   },
   {
-    title: 'HaydarSonV1',
-    desc: 'A personal brand and portfolio showcase built with modern web aesthetics, animated transitions, and curated project highlights.',
-    tech: 'VibeEngine · React · Vercel',
-    link: 'https://haydar-son-v1.vercel.app/',
+    title: 'ArdyStudio Web Dev',
+    desc: 'ArdyStudio is a professional service platform for Fullstack Web Development. We specialize in delivering AI-Native solutions, ranging from high-converting landing pages to scalable SaaS products.',
+    tech: 'AI Prompting · AI-Native Developer · Next.js & React · Tailwind CSS · Three.js · Vercel',
+    link: 'https://web-ardy-studio.vercel.app/',
   },
   {
     title: 'SkillSnap',
