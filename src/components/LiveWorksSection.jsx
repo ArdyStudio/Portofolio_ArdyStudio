@@ -11,7 +11,7 @@ const projects = [
     title: 'Eternal Atelier',
     desc: 'Eternal Atelier is an immersive digital gallery blending old money aesthetics with refined typography to showcase timeless art masterpieces.',
     tech: 'React · Vite · Typescript · Vercel · Tailwind CSS · Motion',
-    link: 'https://nexa-bus-un-done.vercel.app/',
+    link: 'https://eternal-atelier.vercel.app/',
   },
   {
     title: 'Ai-Chi Photobox',
