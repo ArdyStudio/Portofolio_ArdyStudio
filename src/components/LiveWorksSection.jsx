@@ -26,10 +26,10 @@ const projects = [
     link: 'https://web-ardy-studio.vercel.app/',
   },
   {
-    title: 'SkillSnap',
-    desc: 'A professional skill tracking and visualization platform enabling developers to snapshot, organize, and showcase their competency stacks.',
-    tech: 'React · Dashboard · Vercel',
-    link: 'https://skill-snap-web-tau.vercel.app/',
+    title: 'NFS BMW M3 GTR',
+    desc: 'A high-performance, interactive tribute website for the iconic BMW M3 GTR from Need for Speed: Most Wanted (2005). It features a cinematic experience with smooth scroll navigation and a clean, modern aesthetic.',
+    tech: 'React.js · Vite · Tailwind CSS · React Router · Lucid React · Vercel',
+    link: 'https://bmw-m3-gtr-nfs.vercel.app/',
   },
   {
     title: 'PGN MCS Bitung',
