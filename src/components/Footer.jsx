@@ -1,4 +1,5 @@
 import { MessageCircle } from 'lucide-react';
+import logoImage from '../assets/logo-ardystudio.png';
 
 const InstagramIcon = ({ size = 16 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -43,10 +44,12 @@ export default function Footer() {
     <footer className="relative bg-[#050505] border-t border-white/5 px-5 sm:px-8 md:px-14 py-10">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         {/* Left - Brand */}
-        <div className="flex items-center gap-2.5">
-          <svg width="20" height="20" viewBox="0 0 256 256" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 256 256 L 128 256 L 0 128 L 128 128 Z M 256 128 L 128 128 L 0 0 L 128 0 Z" />
-          </svg>
+        <div className="flex items-center gap-0.5">
+          <img 
+            src={logoImage} 
+            alt="ArdyStudio Logo" 
+            className="h-7 w-auto object-contain"
+          />
           <span className="text-white/80 text-lg font-playfair italic">ArdyStudio</span>
         </div>
 

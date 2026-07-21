@@ -2,10 +2,10 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Ai-Chi Studio',
-    desc: 'Premium AI-powered clothing & fashion brand storefront with dynamic product catalog, curated collections, and an immersive shopping experience.',
-    tech: 'React · Vercel · AI Design',
-    link: 'https://ai-chi-clothing.vercel.app/',
+    title: 'GigCraft',
+    desc: 'GigCraft is an AI-powered side-hustle planning web application designed to help users brainstorm, structure, and launch side projects efficiently.',
+    tech: 'React · Vite · Tailwind CSS · Vercel · Supabase',
+    link: 'https://gig-craft-zeta.vercel.app/',
   },
   {
     title: 'Eternal Atelier',

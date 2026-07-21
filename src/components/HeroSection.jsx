@@ -1,7 +1,7 @@
 import { useEffect, useRef, useCallback } from 'react';
 import { Download } from 'lucide-react';
-import Gambar1 from '../assets/Gambar1.png';
-import Gambar2 from '../assets/Gambar2.png';
+import Gambar1 from '../assets/Gambar1.jpeg';
+import Gambar2 from '../assets/Gambar2.jpeg';
 
 const SPOTLIGHT_R = 260;
 
@@ -75,9 +75,9 @@ export default function HeroSection() {
       className="relative w-full overflow-hidden h-screen bg-black"
       style={{ height: '100dvh' }}
     >
-      {/* Base Image Layer (z-10) */}
+      {/* Base Image Layer (z-10) - Kelas hero-zoom sudah dihapus di sini */}
       <div
-        className="absolute inset-0 z-10 bg-center bg-cover bg-no-repeat hero-zoom"
+        className="absolute inset-0 z-10 bg-center bg-cover bg-no-repeat"
         style={{ backgroundImage: `url(${Gambar1})` }}
       />
 
@@ -95,7 +95,7 @@ export default function HeroSection() {
         }}
       />
 
-      {/* Heading Text Overlay (z-50) - Left-aligned to not block center image */}
+      {/* Heading Text Overlay (z-50) */}
       <div className="absolute z-50 pointer-events-none top-1/2 -translate-y-1/2 left-6 sm:left-10 md:left-14 flex flex-col items-start text-left max-w-[85%] sm:max-w-[55%] md:max-w-[45%]">
         <h1
           className="font-playfair italic font-normal text-4xl sm:text-6xl md:text-7xl lg:text-8xl hero-anim hero-reveal drop-shadow-[0_4px_30px_rgba(0,0,0,0.9)]"
