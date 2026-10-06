@@ -32,10 +32,10 @@ const projects = [
     link: 'https://bmw-m3-gtr-nfs.vercel.app/',
   },
   {
-    title: 'PGN MCS Bitung',
-    desc: 'Enterprise-grade web application for PGN MCS Bitung — managing operational data, reporting dashboards, and internal management workflows.',
-    tech: 'Enterprise Web · Laravel · Vercel',
-    link: 'https://web-pgn.vercel.app/',
+    title: 'Siap Pulang Medical',
+    desc: 'A React & TypeScript-based patient discharge planning educational website for hospital patient discharge preparation.',
+    tech: 'React · TypeScript · Vercel · Hospital · AI-Native Developer',
+    link: 'https://siap-pulang-medical.vercel.app/',
   },
 ];
 
